@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const jogo = document.querySelector('.jogo')
 
     meuBotao.addEventListener('click', () => {
-        jogo.classList.add('ativo')
+        jogo.classList.toggle('ativo')
     });
 
 

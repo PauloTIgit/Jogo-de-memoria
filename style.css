@@ -4,7 +4,7 @@
 }
 
 :root{
-    --card-buttom:#2dcf9e;
+    --card-buttom:#ffffff;
 }
 
 .container{
@@ -19,26 +19,45 @@
     width: 50%;
     height: 80%;
     background: var(--card-buttom);
-    border: solid 1px #fff;
+    border: solid 1px rgb(3, 6, 48);
     box-shadow: 1px 1px 10px rgb(119, 104, 104);
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 .title{
     width: 100%;
     height: 2rem;
     padding-top: 1rem ;
-    color: #fff;
+    color: #000000;
     text-align: center;
     font-family: sans-serif;
 }
 
+.bloco{
+    height: 60%;
+}
+
+.jogo{
+    display: none;
+}
+
+.jogo.ativo {
+    text-align: center;
+    display: block;
+
+}
+
+.tabuleiro {
+    width: 26rem;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
 .button{
     margin: auto;
-    padding: 20rem 0 0 0;
 }
 
 .button a{
@@ -59,25 +78,9 @@
 }
 
 .button button:hover{
-    background: #024137;
+    background: #040131;
 }
 
-.jogo{
-    display: none;
-    position: absolute;
-    left: 30rem;
-    top: 6rem;
-}
-
-.jogo.ativo {
-    text-align: center;
-    display: block;
-
-}
-
-.tabuleiro {
-    width: 26rem;
-    margin: auto;
-    border: solid 1px black;
-    border-radius: 10px;
+img{
+    cursor: pointer;
 }
