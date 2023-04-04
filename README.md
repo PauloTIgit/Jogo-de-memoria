@@ -1,7 +1,6 @@
 ## Jogo de Memoria
 
-    Esse e um jogo de memoria contruido em JavaScript,
-    paseado do desaafio do discord do servidor "Mais um DEV".
+    Esse e um jogo de memoria contruido em JavaScript.
 
 ### ▶ Construa um jogo de memória
     Crie um jogo de memória com cartas que possam ser viradas para revelar imagens.
