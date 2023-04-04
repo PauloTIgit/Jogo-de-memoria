@@ -1,8 +1,8 @@
-## Jogo de Memoria
+## Sobre o Projeto
 
-    Esse e um jogo de memoria contruido em JavaScript.
+    Esse foi um desafio para criar um jogo de memoria contruido em JavaScript.
 
-### ▶ Construa um jogo de memória
+### ▶ Desafio
     Crie um jogo de memória com cartas que possam ser viradas para revelar imagens.
     O jogador deve tentar encontrar todos os pares correspondentes.
 
